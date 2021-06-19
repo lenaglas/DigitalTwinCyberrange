@@ -197,3 +197,334 @@ Traceback (most recent call last):
   File "/usr/lib/python2.7/socket.py", line 228, in meth
     return getattr(self._sock,name)(*args)
 socket.error: [Errno 98] Address already in use
+192.168.2.158
+[33m * Tip: There are .env or .flaskenv files present. Do "pip install python-dotenv" to use them.[0m
+ * Serving Flask app "api" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: off
+Traceback (most recent call last):
+  File "api.py", line 81, in <module>
+    app.run(port=9090, host=ip_vm)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 1052, in run_simple
+    inner()
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 1005, in inner
+    fd=fd,
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 848, in make_server
+    host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 740, in __init__
+    HTTPServer.__init__(self, server_address, handler)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 99] Cannot assign requested address
+192.168.2.158
+[33m * Tip: There are .env or .flaskenv files present. Do "pip install python-dotenv" to use them.[0m
+ * Serving Flask app "api" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: off
+Traceback (most recent call last):
+  File "api.py", line 81, in <module>
+    app.run(port=9090, host=ip_vm)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 1052, in run_simple
+    inner()
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 1005, in inner
+    fd=fd,
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 848, in make_server
+    host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 740, in __init__
+    HTTPServer.__init__(self, server_address, handler)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 99] Cannot assign requested address
+192.168.2.158
+[33m * Tip: There are .env or .flaskenv files present. Do "pip install python-dotenv" to use them.[0m
+ * Serving Flask app "api" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: off
+Traceback (most recent call last):
+  File "api.py", line 81, in <module>
+    app.run(port=9090, host=ip_vm)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 1052, in run_simple
+    inner()
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 1005, in inner
+    fd=fd,
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 848, in make_server
+    host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 740, in __init__
+    HTTPServer.__init__(self, server_address, handler)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 99] Cannot assign requested address
+192.168.2.158
+[33m * Tip: There are .env or .flaskenv files present. Do "pip install python-dotenv" to use them.[0m
+ * Serving Flask app "api" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: off
+Traceback (most recent call last):
+  File "api.py", line 81, in <module>
+    app.run(port=9090, host=ip_vm)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 1052, in run_simple
+    inner()
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 1005, in inner
+    fd=fd,
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 848, in make_server
+    host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 740, in __init__
+    HTTPServer.__init__(self, server_address, handler)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 99] Cannot assign requested address
+cat: ./../../deployments/docker/.env: No such file or directory
+
+[33m * Tip: There are .env or .flaskenv files present. Do "pip install python-dotenv" to use them.[0m
+ * Serving Flask app "api" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: off
+ * Running on http://127.0.0.1:9090/ (Press CTRL+C to quit)
+cat: ./../../deployments/docker/.env: No such file or directory
+
+[33m * Tip: There are .env or .flaskenv files present. Do "pip install python-dotenv" to use them.[0m
+ * Serving Flask app "api" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: off
+ * Running on http://127.0.0.1:9090/ (Press CTRL+C to quit)
+132.199.120.10
+[33m * Tip: There are .env or .flaskenv files present. Do "pip install python-dotenv" to use them.[0m
+ * Serving Flask app "api" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: off
+ * Running on http://132.199.120.10:9090/ (Press CTRL+C to quit)
+80.209.221.103 - - [30/May/2021 08:50:41] "[33mGET / HTTP/1.1[0m" 404 -
+80.209.221.103 - - [30/May/2021 08:50:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+80.209.221.103 - - [30/May/2021 08:51:03] "[37mGET /attacker HTTP/1.1[0m" 200 -
+80.209.221.103 - - [30/May/2021 08:51:15] "[37mGET /arp HTTP/1.1[0m" 200 -
+80.209.221.103 - - [30/May/2021 08:51:26] "[37mGET /dos HTTP/1.1[0m" 200 -
+80.209.221.103 - - [30/May/2021 08:51:26] "[37mGET /log_manipulation HTTP/1.1[0m" 200 -
+165.232.181.4 - - [31/May/2021 02:09:09] "[33mGET / HTTP/1.0[0m" 404 -
+80.209.221.103 - - [31/May/2021 06:59:28] "[37mGET /restart_dt HTTP/1.1[0m" 200 -
+62.234.6.147 - - [31/May/2021 08:44:33] "[33mGET /login HTTP/1.1[0m" 404 -
+62.234.6.147 - - [31/May/2021 08:44:33] "[33mGET /jenkins/login HTTP/1.1[0m" 404 -
+62.234.6.147 - - [31/May/2021 08:44:35] "[33mGET /manager/html HTTP/1.1[0m" 404 -
+106.45.11.168 - - [31/May/2021 08:49:01] "[33mHEAD http://110.242.68.4/ HTTP/1.1[0m" 404 -
+193.27.13.26 - - [31/May/2021 11:47:53] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03q\x9cLv\xbc\xcf\xf4\xce\xa07<3\xb3\xe5\xce\x88W\xfd\xbd\xfft\xb5M/]\xd8]*4\xe84\x9f')
+193.27.13.26 - - [31/May/2021 11:47:54] "[31m[1m  üqœLv¼ÏôÎ 7<3³åÎˆWý½ÿtµM/]Ø]*4è4Ÿ ÝÊß(¹‘ÃA‰”zÆ[0m" 400 -
+120.78.200.26 - - [31/May/2021 12:18:41] "[33mGET /login HTTP/1.1[0m" 404 -
+120.78.200.26 - - [31/May/2021 12:18:43] "[33mGET /jenkins/login HTTP/1.1[0m" 404 -
+120.78.200.26 - - [31/May/2021 12:18:45] "[33mGET /manager/html HTTP/1.1[0m" 404 -
+182.138.137.122 - - [31/May/2021 12:24:08] "[33mHEAD http://110.242.68.4/ HTTP/1.1[0m" 404 -
+80.209.221.103 - - [31/May/2021 15:44:11] "[37mGET /restart_dt HTTP/1.1[0m" 200 -
+bash: deactivate.sh: No such file or directory
+[2021-05-31 15:56:31,817] ERROR in app: Exception on /deactivate_directives [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/dist-packages/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "api.py", line 24, in deactivate
+    result_success = subprocess.check_output("bash deactivate.sh", shell=True);
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command 'bash deactivate.sh' returned non-zero exit status 127
+80.209.221.103 - - [31/May/2021 15:56:31] "[35m[1mGET /deactivate_directives HTTP/1.1[0m" 500 -
+80.209.221.103 - - [31/May/2021 15:56:49] "[33mGET / HTTP/1.1[0m" 404 -
+80.209.221.103 - - [31/May/2021 15:56:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+bash: deactivate.sh: No such file or directory
+[2021-05-31 15:56:52,906] ERROR in app: Exception on /deactivate_directives [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/dist-packages/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "api.py", line 24, in deactivate
+    result_success = subprocess.check_output("bash deactivate.sh", shell=True);
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command 'bash deactivate.sh' returned non-zero exit status 127
+80.209.221.103 - - [31/May/2021 15:56:52] "[35m[1mGET /deactivate_directives HTTP/1.1[0m" 500 -
+80.209.221.103 - - [31/May/2021 15:57:13] "[37mGET /mitm HTTP/1.1[0m" 200 -
+80.209.221.103 - - [31/May/2021 15:57:13] "[37mGET /restart_dt HTTP/1.1[0m" 200 -
+8.142.22.70 - - [01/Jun/2021 00:26:11] "[33mGET / HTTP/1.0[0m" 404 -
+8.142.22.70 - - [01/Jun/2021 00:26:11] "[33mGET / HTTP/1.1[0m" 404 -
+mv: cannot stat './../../deployments/docker/conf/dsiem/configs/directives_dt_attacker.txt': No such file or directory
+132.199.187.235 - - [01/Jun/2021 09:12:31] "[37mGET /attacker HTTP/1.1[0m" 200 -
+mv: cannot stat './../../deployments/docker/conf/dsiem/configs/directives_dt_mitm.txt': No such file or directory
+132.199.187.235 - - [01/Jun/2021 10:05:39] "[37mGET /mitm HTTP/1.1[0m" 200 -
+14.116.214.204 - - [01/Jun/2021 12:31:47] "[33mGET /login HTTP/1.1[0m" 404 -
+14.116.214.204 - - [01/Jun/2021 12:31:47] "[33mGET /jenkins/login HTTP/1.1[0m" 404 -
+14.116.214.204 - - [01/Jun/2021 12:31:48] "[33mGET /manager/html HTTP/1.1[0m" 404 -
+1.202.112.201 - - [01/Jun/2021 12:36:43] "[33mHEAD http://110.242.68.4/ HTTP/1.1[0m" 404 -
+132.199.187.235 - - [02/Jun/2021 08:12:43] "[37mGET /restart_dt HTTP/1.1[0m" 200 -
+132.199.187.235 - - [02/Jun/2021 11:46:49] "[37mGET /restart_dt HTTP/1.1[0m" 200 -
+132.199.187.235 - - [02/Jun/2021 11:47:42] "[37mGET /restart_dt HTTP/1.1[0m" 200 -
+132.199.187.235 - - [02/Jun/2021 11:49:06] "[37mGET /restart_dt HTTP/1.1[0m" 200 -
+91.239.130.30 - - [02/Jun/2021 17:28:40] "[33mCONNECT cdn.jsdelivr.net:443 HTTP/1.1[0m" 404 -
+91.239.130.30 - - [02/Jun/2021 17:28:40] "[33mCONNECT cdn.jsdelivr.net:443 HTTP/1.1[0m" 404 -
+91.239.130.30 - - [02/Jun/2021 17:28:41] "[33mCONNECT cdn.jsdelivr.net:443 HTTP/1.1[0m" 404 -
+132.199.243.31 - - [03/Jun/2021 06:49:51] "[37mGET /restart_dt HTTP/1.1[0m" 200 -
+167.172.158.135 - - [03/Jun/2021 08:14:19] "[33mHEAD / HTTP/1.0[0m" 404 -
+167.172.158.135 - - [03/Jun/2021 08:14:20] "[33mGET /system_api.php HTTP/1.1[0m" 404 -
+167.172.158.135 - - [03/Jun/2021 08:14:20] "[33mGET /system_api.php HTTP/1.1[0m" 404 -
+167.172.158.135 - - [03/Jun/2021 08:14:21] "[33mGET /c/version.js HTTP/1.1[0m" 404 -
+167.172.158.135 - - [03/Jun/2021 08:14:22] "[33mGET /streaming/clients_live.php HTTP/1.1[0m" 404 -
+167.172.158.135 - - [03/Jun/2021 08:14:22] "[33mGET /stalker_portal/c/version.js HTTP/1.1[0m" 404 -
+167.172.158.135 - - [03/Jun/2021 08:14:23] "[33mGET /client_area/ HTTP/1.1[0m" 404 -
+167.172.158.135 - - [03/Jun/2021 08:14:23] "[33mGET /stalker_portal/c/ HTTP/1.1[0m" 404 -
+167.172.158.135 - - [03/Jun/2021 08:14:24] "[33mGET /stream/live.php HTTP/1.1[0m" 404 -
+132.199.243.31 - - [03/Jun/2021 08:26:38] "[37mGET /restart_dt HTTP/1.1[0m" 200 -
+159.65.190.13 - - [03/Jun/2021 11:14:05] "[33mHEAD / HTTP/1.0[0m" 404 -
+159.65.190.13 - - [03/Jun/2021 11:14:05] "[33mGET /system_api.php HTTP/1.1[0m" 404 -
+159.65.190.13 - - [03/Jun/2021 11:14:06] "[33mGET /c/version.js HTTP/1.1[0m" 404 -
+159.65.190.13 - - [03/Jun/2021 11:14:06] "[33mGET /streaming/clients_live.php HTTP/1.1[0m" 404 -
+159.65.190.13 - - [03/Jun/2021 11:14:07] "[33mGET /stalker_portal/c/version.js HTTP/1.1[0m" 404 -
+159.65.190.13 - - [03/Jun/2021 11:14:08] "[33mGET /stream/live.php HTTP/1.1[0m" 404 -
+46.183.103.17 - - [03/Jun/2021 11:48:11] "[37mGET /restart_dt HTTP/1.1[0m" 200 -
+94.232.46.213 - - [05/Jun/2021 02:16:03] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie:')
+94.232.46.213 - - [05/Jun/2021 02:16:03] "[31m[1m  /*à     Cookie: mstshash=Administr[0m" 400 -
+89.248.165.165 - - [05/Jun/2021 19:12:28] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&\xe0\x00\x00\x00\x00\x00Cookie:')
+89.248.165.165 - - [05/Jun/2021 19:12:28] "[31m[1m  +&à     Cookie: mstshash=hello[0m" 400 -
+94.232.46.213 - - [05/Jun/2021 19:40:18] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie:')
+94.232.46.213 - - [05/Jun/2021 19:40:18] "[31m[1m  /*à     Cookie: mstshash=Administr[0m" 400 -
+132.199.243.25 - - [06/Jun/2021 07:58:14] "[37mGET /restart_dt HTTP/1.1[0m" 200 -
+bash: deactivate.sh: No such file or directory
+[2021-06-06 13:51:03,535] ERROR in app: Exception on /deactivate_directives [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/dist-packages/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "api.py", line 24, in deactivate
+    result_success = subprocess.check_output("bash deactivate.sh", shell=True);
+  File "/usr/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command 'bash deactivate.sh' returned non-zero exit status 127
+132.199.243.25 - - [06/Jun/2021 13:51:03] "[35m[1mGET /deactivate_directives HTTP/1.1[0m" 500 -
+132.199.243.25 - - [06/Jun/2021 14:21:31] "[37mGET /restart_dt HTTP/1.1[0m" 200 -
+80.209.221.103 - - [06/Jun/2021 18:13:50] "[37mGET /restart_dt HTTP/1.1[0m" 200 -
+80.209.221.103 - - [06/Jun/2021 18:15:01] "[37mGET /restart_dt HTTP/1.1[0m" 200 -
+185.153.196.81 - - [07/Jun/2021 01:51:36] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie:')
+185.153.196.81 - - [07/Jun/2021 01:51:36] "[31m[1m  /*à     Cookie: mstshash=Administr[0m" 400 -
+101.37.150.108 - - [07/Jun/2021 08:33:17] "[33mGET / HTTP/1.1[0m" 404 -
+80.209.221.103 - - [07/Jun/2021 09:28:37] "[37mGET /restart_dt HTTP/1.1[0m" 200 -
+80.209.221.103 - - [07/Jun/2021 09:29:53] "[37mGET /restart_dt HTTP/1.1[0m" 200 -
+159.65.2.210 - - [07/Jun/2021 22:38:07] "[33mGET / HTTP/1.0[0m" 404 -
+80.209.221.103 - - [08/Jun/2021 06:15:36] "[37mGET /restart_dt HTTP/1.1[0m" 200 -
+80.209.221.103 - - [08/Jun/2021 06:17:32] "[37mGET /restart_dt HTTP/1.1[0m" 200 -
+51.91.145.73 - - [10/Jun/2021 10:47:36] "[33mGET /login HTTP/1.1[0m" 404 -
+51.91.145.73 - - [10/Jun/2021 10:47:37] "[33mGET /jenkins/login HTTP/1.1[0m" 404 -
+51.91.145.73 - - [10/Jun/2021 10:47:37] "[33mGET /manager/html HTTP/1.1[0m" 404 -
+157.245.112.162 - - [10/Jun/2021 22:30:47] "[33mHEAD / HTTP/1.0[0m" 404 -
+157.245.112.162 - - [10/Jun/2021 22:30:47] "[33mGET /system_api.php HTTP/1.1[0m" 404 -
+157.245.112.162 - - [10/Jun/2021 22:30:47] "[33mGET /c/version.js HTTP/1.1[0m" 404 -
+157.245.112.162 - - [10/Jun/2021 22:30:48] "[33mGET /streaming/clients_live.php HTTP/1.1[0m" 404 -
+157.245.112.162 - - [10/Jun/2021 22:30:48] "[33mGET /stalker_portal/c/version.js HTTP/1.1[0m" 404 -
+157.245.112.162 - - [10/Jun/2021 22:30:49] "[33mGET /stream/live.php HTTP/1.1[0m" 404 -
+178.62.227.71 - - [10/Jun/2021 23:01:36] "[33mHEAD / HTTP/1.0[0m" 404 -
+178.62.227.71 - - [10/Jun/2021 23:01:36] "[33mGET /system_api.php HTTP/1.1[0m" 404 -
+178.62.227.71 - - [10/Jun/2021 23:01:36] "[33mGET /system_api.php HTTP/1.1[0m" 404 -
+178.62.227.71 - - [10/Jun/2021 23:01:36] "[33mGET /c/version.js HTTP/1.1[0m" 404 -
+178.62.227.71 - - [10/Jun/2021 23:01:36] "[33mGET /streaming/clients_live.php HTTP/1.1[0m" 404 -
+178.62.227.71 - - [10/Jun/2021 23:01:37] "[33mGET /stalker_portal/c/version.js HTTP/1.1[0m" 404 -
+178.62.227.71 - - [10/Jun/2021 23:01:37] "[33mGET /client_area/ HTTP/1.1[0m" 404 -
+178.62.227.71 - - [10/Jun/2021 23:01:37] "[33mGET /stalker_portal/c/ HTTP/1.1[0m" 404 -
+178.62.227.71 - - [10/Jun/2021 23:01:37] "[33mGET /stream/live.php HTTP/1.1[0m" 404 -
+132.199.120.10
+[33m * Tip: There are .env or .flaskenv files present. Do "pip install python-dotenv" to use them.[0m
+ * Serving Flask app "api" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: off
+ * Running on http://132.199.120.10:9090/ (Press CTRL+C to quit)
+80.209.221.103 - - [11/Jun/2021 07:20:03] "[37mGET /restart_dt HTTP/1.1[0m" 200 -
+80.209.221.103 - - [11/Jun/2021 07:23:09] "[37mGET /restart_dt HTTP/1.1[0m" 200 -
+87.251.67.40 - - [12/Jun/2021 13:36:47] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie:')
+87.251.67.40 - - [12/Jun/2021 13:36:47] "[31m[1m  /*à     Cookie: mstshash=Administr[0m" 400 -
+185.156.72.10 - - [13/Jun/2021 08:29:53] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie:')
+185.156.72.10 - - [13/Jun/2021 08:29:53] "[31m[1m  /*à     Cookie: mstshash=Administr[0m" 400 -
+185.156.72.10 - - [13/Jun/2021 09:34:29] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie:')
+185.156.72.10 - - [13/Jun/2021 09:34:29] "[31m[1m  /*à     Cookie: mstshash=Administr[0m" 400 -
+185.156.72.10 - - [13/Jun/2021 10:43:57] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie:')
+185.156.72.10 - - [13/Jun/2021 10:43:57] "[31m[1m  /*à     Cookie: mstshash=Administr[0m" 400 -
+167.99.215.124 - - [13/Jun/2021 12:41:47] "[33mGET / HTTP/1.0[0m" 404 -
+87.251.70.129 - - [14/Jun/2021 05:38:09] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie:')
+87.251.70.129 - - [14/Jun/2021 05:38:09] "[31m[1m  /*à     Cookie: mstshash=Administr[0m" 400 -
+87.251.70.129 - - [14/Jun/2021 06:44:04] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie:')
+87.251.70.129 - - [14/Jun/2021 06:44:04] "[31m[1m  /*à     Cookie: mstshash=Administr[0m" 400 -
+91.239.130.30 - - [14/Jun/2021 08:59:16] "[33mCONNECT cdn.jsdelivr.net:443 HTTP/1.1[0m" 404 -
+91.239.130.30 - - [14/Jun/2021 08:59:16] "[33mCONNECT cdn.jsdelivr.net:443 HTTP/1.1[0m" 404 -
+91.239.130.30 - - [14/Jun/2021 08:59:17] "[33mCONNECT cdn.jsdelivr.net:443 HTTP/1.1[0m" 404 -
